@@ -2,3 +2,6 @@ sudo apt update && sudo apt upgrade
 sudo chmod +x *
 ./InstallDockerComp.sh
 ./CreateYML.sh
+cd ~/changedetection
+read -p "enter the system bit architecture number : " num
+sudo docker-compose$num up -d
