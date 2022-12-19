@@ -3,5 +3,6 @@ sudo chmod +x *
 ./InstallDockerComp.sh
 ./CreateYML.sh
 cd ~/changedetection
-read -p "enter the system bit architecture number : " num
-sudo docker-compose$num up -d
+echo "please change the docker-compose64 to docker-compose and delete original docker-compose incase of 64 bit archetecture."
+echo "else leave it as it is."
+sudo docker-compose up -d
