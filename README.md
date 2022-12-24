@@ -29,11 +29,12 @@ To begin with manual installation
 
 <div>
   for any kind installation first we have to update the linux environment and then upgrade it to latest rolling.
+  
   <pre>
     sudo apt update && sudo apt upgrade</pre>
   after we completed upgrading, we have to choose the docker compose based on the architecture of the machine(either 32 or 64)
   
-  if the system is 32bit, type this command:
+  if the system is 32bit, type these commands to install appropriate fumctions :
   <pre>
     sudo apt install docker-compose
     cd ~
