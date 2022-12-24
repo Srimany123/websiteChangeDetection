@@ -20,7 +20,7 @@ sound "Hi. this is espeak engine. today we going to install the website change d
 sudo apt update && sudo apt upgrade
 sound "System has been succesfully upgraded. Now we install Docker Composite."
 sudo chmod +x *
-sound "To install correct docker enter your system architecture correctly 32 or 64 : "
+sound "To install correct Docker. Enter your system Architecture correctly 32 or 64."
 ./InstallDockerComp.sh
 sound "Docker Composite is successfully installed. Initiating the Y M L Creation."
 ./CreateYML.sh
