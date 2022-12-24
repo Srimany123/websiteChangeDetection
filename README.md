@@ -55,3 +55,5 @@ To begin with manual installation
 </div>
 
 <b> Note :</b> To open this, just type your "http://hostip:5000"
+
+<p><b> caution :</b> only one method of installation is enough, don't do both. try to install Automated for less error sake. but at the end of the day its always your choice.</p>
