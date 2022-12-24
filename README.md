@@ -31,22 +31,24 @@ To begin with manual installation
   for any kind installation first we have to update the linux environment and then upgrade it to latest rolling.
   <pre>
     sudo apt update && sudo apt upgrade</pre>
-  after we completed upgrading,
+  after we completed upgrading, we have to choose the docker compose based on the architecture of the machine(either 32 or 64)
+  
+  if the system is 32bit, type this command:
   <pre>
-    sudo chmod +x *</pre>
-  <pre>
-    sudo apt install docker-composite</pre>
-  <pre>
-    sudo apt install docker-composite64</pre>
-  <pre>
+    sudo apt install docker-compose
     cd ~
-    sudo git clone https://github.com/Srimany123/changeDetection.git</pre>
-  <pre>
-    cd ~/changedetection</pre>
-  <pre>
+    sudo git clone https://github.com/Srimany123/changeDetection.git
+    cd ~/changedetection
     docker-compose.yml</pre>
+    
+  else if the system is 64bit type these commands:
   <pre>
+    sudo apt install docker-compose
+    cd ~
+    sudo git clone https://github.com/Srimany123/changeDetection.git
+    cd ~/changedetection
     docker-compose64.yml</pre>
+  
   to start running tool type the following command:
   <pre>
     sudo docker-compose up -d</pre>
