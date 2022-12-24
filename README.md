@@ -1,7 +1,7 @@
 <h1 align="center">Website Changes Detection Tool</h1>
 <i>This a automated tool to keep track on the website. if there has been any changes done on the website, it will keep track of the changes and show them to us. easy to use and very comfortable to check the snippets.</i>
 
-<h3>Automated installation:<h3>
+<h3>Automated installation<h3>
   
 <i>if you are using this repository for installation. copy the following commands</i>
   
