@@ -36,7 +36,10 @@ To begin with manual installation
     sudo apt install docker-composite</pre>
   <pre>
     sudo apt install docker-composite64</pre>
-./CreateYML.sh
-cd ~/changedetection
+  <pre>
+    cd ~
+    sudo git clone https://github.com/Srimany123/changeDetection.git</pre>
+  <pre>
+    cd ~/changedetection</pre>
 echo "else leave it as it is."
 sudo docker-compose up -d
