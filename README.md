@@ -15,7 +15,7 @@
   if you want audio acknowledgement of key installation names and updates of progress, then use this command : 
   
   <pre>
-    bash start -sd
+    <span>bash start -sd</span>
   </pre>
   else if you don't want know those details and just want to complet the installation then us this command:
   <pre>
