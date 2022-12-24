@@ -13,9 +13,11 @@ if you are using this repository for installation. copy the following commands
   
   if you want audio acknowledgement of key installation names and updates of progress, then use this command : 
   
-  <pre><span>bash start -sd</span></pre>
+  <pre>
+    bash start -sd</pre>
   else if you don't want know those details and just want to complet the installation then us this command:
-  <pre>bash start</pre>
+  <pre>
+    bash start</pre>
 </div>
 
 To begin with manual installation
