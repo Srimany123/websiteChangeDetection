@@ -1,6 +1,27 @@
+#!/usr/bin/sh
+opt=$1
+
+print(){
+if [ "$opt" = "-s" ] || [ "$opt" = "-sd" ] || [ "$opt" = "-ds" ]; then
+espeak -ven+f3 -p20 -k20 -s160 -a70 "$1" 2>/dev>null
+fi
+if [ "$opt" = "-d" ] || [ "$opt" = "-sd" ] || [ "$opt" = "-ds" ]; then
+echo $1
+fi
+}
+
+sound(){
+if [ "$opt" = "-s" ] || [ "$opt" = "-sd" ] || [ "$opt" = "-ds" ]; then
+espeak -ven+f3 -p20 -k20 -s160 -a70 "$1" 2>/dev>null
+fi
+}
+
+sound "Hi. this is espeak engine. today we going to install the website change detection tool. Firstly we need to update and upgrade."
 sudo apt update && sudo apt upgrade
+sound "System has been succesfully upgraded. Now we install Docker Composite."
 sudo chmod +x *
 ./InstallDockerComp.sh
+sound "Docker Composite is successfully installed. Initiating the Y M L Creation."
 ./CreateYML.sh
 cd ~/changedetection
 echo "please change the docker-compose64 to docker-compose and delete original docker-compose incase of 64 bit archetecture."
