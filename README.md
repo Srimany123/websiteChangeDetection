@@ -34,7 +34,7 @@ To begin with manual installation
     sudo apt update && sudo apt upgrade</pre>
   after we completed upgrading, we have to choose the docker compose based on the architecture of the machine(either 32 or 64)
   
-  if the system is 32bit, type these commands to install appropriate fumctions :
+  if the system is 32bit, type these commands to install appropriate functions :
   <pre>
     sudo apt install docker-compose
     cd ~
