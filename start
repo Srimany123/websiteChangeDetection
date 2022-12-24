@@ -3,7 +3,7 @@ opt=$1
 
 print(){
 if [ "$opt" = "-s" ] || [ "$opt" = "-sd" ] || [ "$opt" = "-ds" ]; then
-espeak -ven+f3 -p20 -k20 -s160 -a70 "$1" 2>/dev>null
+espeak -ven+f3 -p20 -k20 -s160 -a70 "$1" 2>/dev/null
 fi
 if [ "$opt" = "-d" ] || [ "$opt" = "-sd" ] || [ "$opt" = "-ds" ]; then
 echo $1
@@ -12,7 +12,7 @@ fi
 
 sound(){
 if [ "$opt" = "-s" ] || [ "$opt" = "-sd" ] || [ "$opt" = "-ds" ]; then
-espeak -ven+f3 -p20 -k20 -s160 -a70 "$1" 2>/dev>null
+espeak -ven+f3 -p20 -k20 -s160 -a70 "$1" 2>/dev/null
 fi
 }
 
