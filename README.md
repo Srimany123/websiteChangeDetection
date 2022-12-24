@@ -28,8 +28,10 @@ installation will be completed and link will be displayed at the end.
 To begin with manual installation
 
 <div>
+  for any kind installation first we have to update the linux environment and then upgrade it to latest rolling.
   <pre>
     sudo apt update && sudo apt upgrade</pre>
+  after we completed upgrading,
   <pre>
     sudo chmod +x *</pre>
   <pre>
@@ -50,4 +52,4 @@ To begin with manual installation
     sudo docker-compose up -d</pre>
 </div>
 
-<b> Note :</b> To open this, just type "http://localhostIp:5000"
+<b> Note :</b> To open this, just type your "http://hostip:5000"
