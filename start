@@ -27,6 +27,7 @@ sound "Docker Composite is successfully installed. Initiating the Y M L Creation
 cd ~/changedetection
 echo "else leave it as it is."
 sudo docker-compose up -d
-sound "Docker Composite is up and running. If there has no changes done on Default port number then try opening the below link."
+sound "Docker Composite is up and running. If there has no changes done on the Default port number then try opening the generated link."
 ipad=$(hostname -I | cut -f1 -d' ')
-echo "https://$ipad:5000"
+clear
+echo "<<   http://$ipad:5000   >>"
