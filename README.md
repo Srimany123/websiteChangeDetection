@@ -15,18 +15,27 @@ if you are using this repository for installation. copy the following commands
   
   <pre>
     bash start -sd</pre>
-  else if you don't want know those details and just want to complet the installation then us this command:
+  else if you don't want know those details and just want to complete the installation then us this command:
   <pre>
     bash start</pre>
 </div>
+installation will be completed and link will be displayed at the end.
+
+<b> Note :</b> commonly this tool use the port 5000 to work. incase of any problem, try stopping the programs running on port 5000.
+
+<h2>Manual installation</h2>
 
 To begin with manual installation
-sudo apt update && sudo apt upgrade
-sound "System has been succesfully upgraded. Now we install Docker Composite."
-sudo chmod +x *
-sound "To install correct Docker. Enter your system Architecture correctly 32 or 64."
-./InstallDockerComp.sh
-sound "Docker Composite is successfully installed. Initiating the Y M L Creation."
+
+<div>
+  <pre>
+    sudo apt update && sudo apt upgrade</pre>
+  <pre>
+    sudo chmod +x *</pre>
+  <pre>
+    sudo apt install docker-composite</pre>
+  <pre>
+    sudo apt install docker-composite64</pre>
 ./CreateYML.sh
 cd ~/changedetection
 echo "else leave it as it is."
