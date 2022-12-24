@@ -19,8 +19,8 @@ if you are using this repository for installation. copy the following commands
   <pre>
     bash start</pre>
 </div>
-installation will be completed and link will be displayed at the end.
-
+<p>installation will be completed and link will be automatically displayed at the end.
+</p>
 <b> Note :</b> commonly this tool use the port 5000 to work. incase of any problem, try stopping the programs running on port 5000 or change port to something which is free to use, in docker compose yml file. location inside the (~/changedetection/).
 
 <h2>Manual installation</h2>
@@ -40,7 +40,7 @@ To begin with manual installation
     cd ~
     sudo git clone https://github.com/Srimany123/changeDetection.git
     cd ~/changedetection
-    docker-compose.yml</pre>
+    sudo docker-compose up -d</pre>
     
   else if the system is 64bit type these commands:
   <pre>
@@ -48,11 +48,10 @@ To begin with manual installation
     cd ~
     sudo git clone https://github.com/Srimany123/changeDetection.git
     cd ~/changedetection
-    docker-compose64.yml</pre>
+    sudo docker-compose64 up -d</pre>
   
-  to start running tool type the following command:
-  <pre>
-    sudo docker-compose up -d</pre>
+  by this end the tool should be up and running.
+  
 </div>
 
 <b> Note :</b> To open this, just type your "http://hostip:5000"
