@@ -15,7 +15,8 @@ if [ "$opt" = "-s" ] || [ "$opt" = "-sd" ] || [ "$opt" = "-ds" ]; then
 espeak -ven+f3 -p20 -k20 -s160 -a70 "$1" 2>/dev/null
 fi
 }
-
+sudo apt-get install python-dev
+sudo apt-get install espeak python-espeak
 sound "Hi. this is espeak engine. today we going to install the website change detection tool. Firstly we need to update and upgrade."
 sudo apt update && sudo apt upgrade
 sound "System has been succesfully upgraded. Now we install Docker Composite."
