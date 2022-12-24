@@ -3,14 +3,13 @@
 
 <h2>Automated installation</h2>
   
-<i>if you are using this repository for installation. copy the following commands</i>
+if you are using this repository for installation. copy the following commands
   
 <div>
   <pre>
     cd ~
     sudo git clone https://github.com/Srimany123/websiteChangeDetection.git
-    cd ~/websiteChangeDetection
-   </pre>
+    cd ~/websiteChangeDetection</pre>
   
   if you want audio acknowledgement of key installation names and updates of progress, then use this command : 
   
