@@ -41,5 +41,12 @@ To begin with manual installation
     sudo git clone https://github.com/Srimany123/changeDetection.git</pre>
   <pre>
     cd ~/changedetection</pre>
-echo "else leave it as it is."
-sudo docker-compose up -d
+  <pre>
+    docker-compose.yml</pre>
+  <pre>
+    docker-compose64.yml</pre>
+  to start running tool type the following command:
+  <pre>
+    sudo docker-compose up -d</pre>
+</div>
+  To open this, just type "http://localhostIp:5000"
