@@ -21,7 +21,7 @@ if you are using this repository for installation. copy the following commands
 </div>
 installation will be completed and link will be displayed at the end.
 
-<b> Note :</b> commonly this tool use the port 5000 to work. incase of any problem, try stopping the programs running on port 5000.
+<b> Note :</b> commonly this tool use the port 5000 to work. incase of any problem, try stopping the programs running on port 5000 or change port to something which is free to use, in docker compose yml file. location inside the (~/changedetection/).
 
 <h2>Manual installation</h2>
 
@@ -49,4 +49,5 @@ To begin with manual installation
   <pre>
     sudo docker-compose up -d</pre>
 </div>
-  To open this, just type "http://localhostIp:5000"
+
+<b> Note :</b> To open this, just type "http://localhostIp:5000"
