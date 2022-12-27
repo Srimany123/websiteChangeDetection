@@ -34,3 +34,8 @@ sound "Docker Composite is up and running. If there has no changes done on the D
 ipad=$(hostname -I | cut -f1 -d' ')
 clear
 echo "<<   http://$ipad:5000   >>"
+
+soung "if you are facing any errors send a message to my email."
+echo " "
+echo " "
+echo "Email address : yalavarthisreeman21725@gmail.com"
